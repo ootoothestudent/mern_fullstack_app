@@ -16,10 +16,11 @@ app.use(cors({ origin: true, credentials: true }));
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.send('Hello world!'));
+app.get('/', (req, res) => res.send(`/mern_a_to_z_client/src/App.js`));
 
 // use Routes
 app.use('/api/books', books);
+//app.use ('/mern_a_to_z_client/src/App.js', test);
 
 const port = process.env.PORT || 8082;
 
