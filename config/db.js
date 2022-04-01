@@ -17,8 +17,6 @@ const connectDB = async() => {
         process.exit(1);
     }
 };
-if(process.env.NODE_ENV ==='production'){
-    app.use(express.static('mern_a_to_z_client/build'))
-}
+
 
 module.exports = connectDB;
