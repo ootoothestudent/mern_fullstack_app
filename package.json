@@ -29,6 +29,7 @@
         "express": "^4.17.3",
         "heroku": "^7.60.0",
         "mongoose": "^6.2.8",
+        "node": "^17.7.2",
         "nodemon": "^2.0.15",
         "react-router-dom": "^6.2.2",
         "validation": "0.0.1"
