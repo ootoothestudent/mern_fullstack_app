@@ -7,7 +7,7 @@ const books = require('./routes/api/books');
 
 const app = express();
 
-// Connect Database
+/// Connect Database
 connectDB();
 
 // cors
