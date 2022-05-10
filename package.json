@@ -6,11 +6,11 @@
     "scripts": {
         "install-mern_a_to_z_client": "cd mern_a_to_z_client && npm install",
         "heroku-postbuild": "npm run install-mern_a_to_z_client && npm run build",
-        "start": "set NODE_ENV=development&& node app.js ",
+        "start": "concurrently \"set NODE_ENV=development&& nodemon app.js\" \"cd mern_a_to_z_client && npm start\"",
         "app": "nodemon app.js && cd mern_a_to_z_client && npm start",
         "dev": "node app && cd mern_a_to_z_client && npm start",
         "test": "nodemon app.js && cd mern_a_to_z_client && npm start",
-        "start2": "concurrently \"nodemon app.js\" \"cd mern_a_to_z_client && npm start\""
+        "start2": "concurrently \"set NODE_ENV=development&& nodemon app.js\" \"cd mern_a_to_z_client && npm start\""
     },
     "repository": {
         "type": "git",
