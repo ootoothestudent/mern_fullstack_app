@@ -4,8 +4,8 @@
     "description": "this is a mern tutorrial found on https://blog.logrocket.com/mern-stack-tutorial/#connecting ",
     "main": "index.js",
     "scripts": {
-        "build": "cd mern_a_to_z_client && npm run build",
-        "install-client": "cd mern_a_to_z_client && npm install",
+
+        "install-mern_a_to_z_client": "cd mern_a_to_z_client && npm install",
         "heroku-postbuild": "npm run install-mern_a_to_z_client && npm run build",
         "start": "set NODE_ENV=development&& node app.js ",
         "app": "nodemon app.js && cd mern_a_to_z_client && npm start",
