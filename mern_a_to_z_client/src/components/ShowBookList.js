@@ -45,7 +45,7 @@ class ShowBookList extends Component {
           <div className="row">
             <div className="col-md-12">
               <br />
-              <h2 className="display-4 text-center">Books List</h2>
+              <h2 className="display-4 text-center" >Books List</h2>
             </div>
 
             <div className="col-md-11">
@@ -58,7 +58,14 @@ class ShowBookList extends Component {
             </div>
 
           </div>
-
+        <div>
+        
+        <input type={ "text"}/>
+          <ul>
+         
+          </ul>
+        
+        </div>
           <div className="list">
                 {bookList}
           </div>
